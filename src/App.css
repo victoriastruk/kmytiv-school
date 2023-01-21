@@ -1,0 +1,23 @@
+body{
+   background-image: url('../public/bg.png');
+   background-size: no-repeat;
+   background-position: center;
+   background-size: cover; 
+   height: 100%;
+}
+
+.back{
+   background-color: #fff175;
+   font-weight: 500;
+   font-size: 18px;
+}
+
+.vr{
+   color: rgba(9, 9, 250, 0.979);
+   height: 5px;
+   margin-top: 14px;
+ }
+
+ .text{
+   font-weight: 800;
+ }
