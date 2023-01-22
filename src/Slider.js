@@ -5,22 +5,22 @@ export default function Slider() {
    <Carousel variant="light">
       <Carousel.Item>
         <img
-          className="d-block w-60 h-55 mx-auto"
-          src="slider/slide_1.jpg"
+          className="d-block w-60 h-100 mx-auto"
+          src="slider/slide_1.png"
           alt="First slide"
         />
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="d-block w-60 h-55 mx-auto"
-          src="slider/slide_2.jpg"
+          className="d-block w-60 h-100 mx-auto"
+          src="slider/slide_2.png"
           alt="Second slide"
         />
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="d-block w-60 h-55 mx-auto"
-          src="slider/slide_3.jpg"
+          className="d-block w-60 h-100 mx-auto"
+          src="slider/slide_3.png"
           alt="Third slide"
         />
       </Carousel.Item>

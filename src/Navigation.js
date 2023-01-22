@@ -3,9 +3,9 @@ import Nav from 'react-bootstrap/Nav';
 export default function Navigation() {
   return (
    <Nav className="me-auto" >
-      <Nav.Link href="#home">Про нас</Nav.Link>
+      <Nav.Link href="#home">Про заклад</Nav.Link>
       <div className="vr" />
-      <Nav.Link href="#">Історія закладу</Nav.Link>
+      <Nav.Link href="#">Історія</Nav.Link>
       <div className="vr" />
       <Nav.Link href="#">Педадогічний колектив</Nav.Link>
       <div className="vr" />

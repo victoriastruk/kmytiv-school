@@ -6,7 +6,7 @@ import Navigation from './Navigation';
 
 export default function Header() {
   return (
-  <Navbar className="back" bg="aqua" variant="aqua">
+  <Navbar className="back" fluid="md">
    <Container fluid="md" className="justify-content-md-center">
       <Row>
         <Col>
