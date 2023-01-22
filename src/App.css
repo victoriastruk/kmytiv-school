@@ -20,12 +20,13 @@ body{
 
  .text{
    font-weight: 900;
+   color:	#0000CD;
  }
 
  .title{
    font-size: 26px;
    font-weight: 900;
-   color:	#0000CD;
+   color:		#1C39BB 
  }
 
  .line{
