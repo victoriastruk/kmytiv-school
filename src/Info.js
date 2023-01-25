@@ -11,18 +11,15 @@ export default function Info() {
     <Container>
       <Row>
          <Col>
-         <TitleBlock title="Про заклад"/>
+         <TitleBlock link="about" title="Про заклад"/>
          </Col>
          </Row>
          <Alert variant="primary">
             <Image className="d-block mx-auto" src="info/school.jpg"></Image>
          <Row>
-        
             <Col>
          <p>Школа<strong> забезпечує корекційну спрямованість навчально-виховного процесу, лікувально-профілактичну, відновлювальну і оздоровчу роботу</strong> для вихованців віком <strong>від 7 до 17 років.</strong> У ній проводяться <strong>корекційно-відновлювальні заняття</strong> з предметно-практичного навчання, <strong>лікувальної фізкультури, логопедії, ритміки, соціально-побутової орієнтації.</strong> Здійснюється <strong>трудове навчання</strong> за профілями: швейна, столярна справа та квітникарство.</p>
          </Col></Row>
-
-
       <Row> 
      
          <Col md="6">
