@@ -1,18 +1,19 @@
-import Container from 'react-bootstrap/Container'
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
-import TitleBlock from './TitleBlock';
-import Button from 'react-bootstrap/Button';
-import Card from 'react-bootstrap/Card';
-import Carousel from 'react-bootstrap/Carousel';
-import Stack from 'react-bootstrap/Stack';
+import {Container, Row, Col, Button, Card, Carousel, Stack} from 'react-bootstrap'
 
-export default function Gallery() {
+import TitleBlock from './TitleBlock';
+
+export default function Activities() {
    return (
       <Container>
          <Row>
             <Col>
-               <TitleBlock link="gallery" title="Фотогалерея" />
+               <TitleBlock link="activities" title="Заходи" />
+            </Col>
+         </Row>
+         <Row>
+            <Col md="10" className="d-block text-center mx-auto mb-4 lead">
+               <div>У школі часто проводять заходи, які урізноманітнюють навчальне та реаілітаційне
+                  життя вихованців та спонукають їх до творчої активності</div>
             </Col>
          </Row>
          <Row>

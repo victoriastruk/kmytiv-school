@@ -7,10 +7,28 @@
    overflow-x: hidden;
 }
 
+/* h2{
+  padding-top: 6rem;
+} */
+header{
+  margin-bottom: 0;
+}
+
 .back{
    background-color: #fff175;
    font-weight: 500;
    font-size: 18px;
+}
+.is-sticky {
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  box-shadow: 0 2px 24px 0 rgb(0 0 0 / 50%);
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
 .vr{
@@ -32,6 +50,7 @@
 
  .line{
    width: 10%;
-   border-bottom: 5px solid #708090;
+   border-bottom: 3px solid #708090;
    margin: 0 auto;
  }
+

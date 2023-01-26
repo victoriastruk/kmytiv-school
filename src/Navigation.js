@@ -1,22 +1,20 @@
-import Nav from 'react-bootstrap/Nav';
+import { Nav, Image, Navbar } from 'react-bootstrap'
 
 export default function Navigation() {
   return (
-   <Nav className="me-auto" >
-      <Nav.Link href="#home"></Nav.Link>
-      <Nav.Link href="#about">Про заклад</Nav.Link>
-      <div className="vr" />
-      <Nav.Link href="#history">Історія</Nav.Link>
-      <div className="vr" />
-      <Nav.Link href="#">Педадогічний колектив</Nav.Link>
-      <div className="vr" />
-      <Nav.Link href="#">Адміністрація</Nav.Link>
-      <div className="vr" />
-      <Nav.Link href="#">Документація</Nav.Link>
-      <div className="vr" />
-      <Nav.Link href="#gallery">Заходи</Nav.Link>
-      <div className="vr" />
-      <Nav.Link href="#">Контактна інформація</Nav.Link>
-    </Nav>
+    <Navbar className="justify-content-center navbar-collapse" fluid="md">
+      <Nav className="align-items-center" >
+        <Nav.Link href="#main">
+          <Image style={{ width: 70 }} src="header/logo.jpg" rounded></Image>
+        </Nav.Link>
+        <Nav.Link href="#about">Про заклад</Nav.Link>
+        <Nav.Link href="#history">Історія</Nav.Link>
+        <Nav.Link href="#history">Зарахування</Nav.Link>
+        <Nav.Link href="#history">Напрями розвитку</Nav.Link>
+        <Nav.Link href="#">Педадогічний колектив</Nav.Link>
+        <Nav.Link href="#activities">Заходи</Nav.Link>
+        <Nav.Link href="#">Контактна інформація</Nav.Link>
+      </Nav>
+    </Navbar>
   )
 }

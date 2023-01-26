@@ -1,19 +1,30 @@
-import Container from 'react-bootstrap/Container';
-import Navbar from 'react-bootstrap/Navbar';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+import React, { useEffect, useState } from "react";
+
 import Navigation from './Navigation';
 
 export default function Header() {
+  const [sticky, setSticky] = useState( "" );
+
+  // on render, set listener
+  useEffect( () => {
+    window.addEventListener( "scroll", isSticky );
+    return () => {
+      window.removeEventListener( "scroll", isSticky );
+    };
+  }, [] );
+
+  const isSticky = () => {
+    /* Method that will fix header after a specific scrollable */
+    const scrollTop = window.scrollY;
+    const stickyClass = scrollTop > 0 ? "is-sticky" : "";
+    setSticky( stickyClass );
+  };
+
+  const classes = `header-section back ${sticky}`;
+
   return (
-  <Navbar className="back" fluid="md">
-   <Container fluid="md" className="justify-content-md-center">
-      <Row>
-        <Col>
-            <Navigation/>
-        </Col>
-      </Row>
-   </Container>
-</Navbar>
+    <header className={classes} >
+      <Navigation />
+    </header>
   );
 }
