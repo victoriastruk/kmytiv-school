@@ -9,8 +9,7 @@ export default function Navigation() {
         </Nav.Link>
         <Nav.Link href="#about">Про заклад</Nav.Link>
         <Nav.Link href="#history">Історія</Nav.Link>
-        <Nav.Link href="#history">Зарахування</Nav.Link>
-        <Nav.Link href="#history">Напрями розвитку</Nav.Link>
+        <Nav.Link href="#directions">Напрями розвитку</Nav.Link>
         <Nav.Link href="#">Педадогічний колектив</Nav.Link>
         <Nav.Link href="#activities">Заходи</Nav.Link>
         <Nav.Link href="#">Контактна інформація</Nav.Link>

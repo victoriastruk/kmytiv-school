@@ -7,7 +7,7 @@ export default function Activities() {
       <Container>
          <Row>
             <Col>
-               <TitleBlock link="activities" title="Заходи" />
+               <TitleBlock className="activities" link="activities" title="Заходи" />
             </Col>
          </Row>
          <Row>

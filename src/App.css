@@ -1,3 +1,7 @@
+body{
+  font-family: 'Nunito', sans-serif;
+}
+
 #root{
    background-image: url('../public/bg.png');
    background-size: no-repeat;
@@ -6,17 +10,22 @@
    height: 100%;
    overflow-x: hidden;
 }
+p{
+  font-weight: 400;
+  font-size: 16px;
+}
+h2{
+  margin-top: 0;
+  font-weight: 500;
+}
 
-/* h2{
-  padding-top: 6rem;
-} */
 header{
   margin-bottom: 0;
 }
 
 .back{
    background-color: #fff175;
-   font-weight: 500;
+   font-weight: 400;
    font-size: 18px;
 }
 .is-sticky {
@@ -54,3 +63,11 @@ header{
    margin: 0 auto;
  }
 
+.directions{
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.activities{
+  margin-top: 5rem;
+}

@@ -5,7 +5,7 @@ export default function TitleBlock(props) {
    <Container fluid="md">
       <Row>
          <Col>
-         <h2 id={props.link} className="title mt-5 text-center text-uppercase">{props.title}</h2>
+         <h2 id={props.link} className="title text-center text-uppercase">{props.title}</h2>
          <div className="line mb-4"></div>
          </Col>
       </Row>
