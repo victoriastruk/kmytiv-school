@@ -7,10 +7,10 @@ import TitleBlock from './TitleBlock'
 
 export default function History() {
   return (
-    <Container className="py-5">
+    <Container className="py-3">
       <Row className="align-items-center">
          <Col md="4">
-            <Image className="d-block mx-5 px-3" src="history/table.jpg"></Image>
+            <Image style={{ width: 350, height: 400 }}  className="" src="history/table.jpg"></Image>
          </Col>
          <Col md="8">
             <TitleBlock title="Історія" link="history"/>

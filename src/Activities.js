@@ -12,7 +12,7 @@ export default function Activities() {
          </Row>
          <Row>
             <Col md="10" className="d-block text-center mx-auto mb-4 lead">
-               <div>У школі часто проводять заходи, які урізноманітнюють навчальне та реаілітаційне
+               <div>У школі часто проводять заходи, які урізноманітнюють навчальне та реабілітаційне
                   життя вихованців та спонукають їх до творчої активності</div>
             </Col>
          </Row>
@@ -24,17 +24,17 @@ export default function Activities() {
                      className="h-100 justify-content-center align-items-center"
                      gap={3}
                   >
-                     <Card><Card.Img variant="top" src="holder.js/100px180" />
+                     <Card><Card.Img variant="top" src="holder.js/100px150" />
                         <Card.Body>
                            <Card.Title className="mb-4">Новорічне свято 2023</Card.Title>
                            <Button className="d-block mx-auto" variant="primary">Дивитись</Button>
                         </Card.Body></Card>
-                     <Card><Card.Img variant="top" src="holder.js/100px180" />
+                     <Card><Card.Img variant="top" src="holder.js/100px150" />
                         <Card.Body>
                            <Card.Title className="mb-4">Новорічне свято 2023</Card.Title>
                            <Button className="d-block mx-auto" variant="primary">Дивитись</Button>
                         </Card.Body></Card>
-                     <Card><Card.Img variant="top" src="holder.js/100px180" />
+                     <Card><Card.Img variant="top" src="holder.js/100px150" />
                         <Card.Body>
                            <Card.Title className="mb-4">Новорічне свято 2023</Card.Title>
                            <Button className="d-block mx-auto" variant="primary">Дивитись</Button>

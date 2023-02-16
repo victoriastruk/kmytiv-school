@@ -23,7 +23,7 @@ export default function Header() {
   const classes = `header-section back ${sticky}`;
 
   return (
-    <header className={classes} >
+    <header fluid="md" className={classes} >
       <Navigation />
     </header>
   );
