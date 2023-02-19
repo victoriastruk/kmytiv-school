@@ -7,6 +7,9 @@ import Directions from './Directions';
 import Activities from './Activities';
 
 import './App.css';
+import Collective from './Collective';
+import Contacts from './Contacts';
+import Footer from './Footer';
 
 const App = () => (
    
@@ -16,7 +19,10 @@ const App = () => (
       <About />
       <History />
       <Directions />
+      <Collective />
       <Activities />  
+      <Contacts />
+      <Footer />
    </>
 
 );

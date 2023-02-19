@@ -4,7 +4,7 @@ import TitleBlock from './TitleBlock';
 
 export default function Activities() {
    return (
-      <Container>
+      <Container className="mb-3">
          <Row>
             <Col>
                <TitleBlock className="activities" link="activities" title="Заходи" />
@@ -24,17 +24,86 @@ export default function Activities() {
                      className="h-100 justify-content-center align-items-center"
                      gap={3}
                   >
-                     <Card><Card.Img variant="top" src="holder.js/100px150" />
+                     <Card><Card.Img variant="top" src="activities/img_1.jpg" />
+                        <Card.Body>
+                           <Card.Title className="mb-4 text-center">Новорічне свято 2023</Card.Title>
+                           <Button className="d-block mx-auto" variant="primary">Дивитись</Button>
+                        </Card.Body></Card>
+                     <Card><Card.Img variant="top" src="activities/img_2.jpg" />
+                        <Card.Body>
+                           <Card.Title className="mb-4 text-center">Екскурсія в Добропарк</Card.Title>
+                           <Button className="d-block mx-auto" variant="primary">Дивитись</Button>
+                        </Card.Body></Card>
+                     <Card><Card.Img variant="top" src="activities/img_3.jpg" />
+                        <Card.Body>
+                           <Card.Title className="mb-4 text-center">Ой,Андрію, даруй нам надію!</Card.Title>
+                           <Button className="d-block mx-auto" variant="primary">Дивитись</Button>
+                        </Card.Body></Card>
+                  </Stack>
+               </Carousel.Item>
+               <Carousel.Item style={{ marginBottom: 55 }}>
+                  <Stack
+                     direction="horizontal"
+                     className="h-100 justify-content-center align-items-center"
+                     gap={3}
+                  >
+                     <Card><Card.Img variant="top" src="activities/img_1.jpg" />
+                        <Card.Body>
+                           <Card.Title className="mb-4 text-center">Новорічне свято 2023</Card.Title>
+                           <Button className="d-block mx-auto" variant="primary">Дивитись</Button>
+                        </Card.Body></Card>
+                     <Card><Card.Img variant="top" src="activities/img_2.jpg" />
+                        <Card.Body>
+                           <Card.Title className="mb-4 text-center">Екскурсія в Добропарк</Card.Title>
+                           <Button className="d-block mx-auto" variant="primary">Дивитись</Button>
+                        </Card.Body></Card>
+                     <Card><Card.Img variant="top" src="activities/img_3.jpg" />
+                        <Card.Body>
+                           <Card.Title className="mb-4 text-center">Ой,Андрію, даруй нам надію!</Card.Title>
+                           <Button className="d-block mx-auto" variant="primary">Дивитись</Button>
+                        </Card.Body></Card>
+                  </Stack>
+               </Carousel.Item>
+               <Carousel.Item style={{ marginBottom: 55 }}>
+                  <Stack
+                     direction="horizontal"
+                     className="h-100 justify-content-center align-items-center"
+                     gap={3}
+                  >
+                     <Card><Card.Img variant="top" src="activities/img_1.jpg" />
+                        <Card.Body>
+                           <Card.Title className="mb-4 text-center">Новорічне свято 2023</Card.Title>
+                           <Button className="d-block mx-auto" variant="primary">Дивитись</Button>
+                        </Card.Body></Card>
+                     <Card><Card.Img variant="top" src="activities/img_2.jpg" />
+                        <Card.Body>
+                           <Card.Title className="mb-4 text-center">Екскурсія в Добропарк</Card.Title>
+                           <Button className="d-block mx-auto" variant="primary">Дивитись</Button>
+                        </Card.Body></Card>
+                     <Card><Card.Img variant="top" src="activities/img_3.jpg" />
+                        <Card.Body>
+                           <Card.Title className="mb-4 text-center">Ой,Андрію, даруй нам надію!</Card.Title>
+                           <Button className="d-block mx-auto" variant="primary">Дивитись</Button>
+                        </Card.Body></Card>
+                  </Stack>
+               </Carousel.Item>
+               {/* <Carousel.Item style={{ marginBottom: 55 }}>
+                  <Stack
+                     direction="horizontal"
+                     className="h-100 justify-content-center align-items-center"
+                     gap={3}
+                  >
+                     <Card><Card.Img variant="top" src="activities/img_3.jpg" />
                         <Card.Body>
                            <Card.Title className="mb-4">Новорічне свято 2023</Card.Title>
                            <Button className="d-block mx-auto" variant="primary">Дивитись</Button>
                         </Card.Body></Card>
-                     <Card><Card.Img variant="top" src="holder.js/100px150" />
+                     <Card><Card.Img variant="top" src="activities/img_2.jpg" />
                         <Card.Body>
                            <Card.Title className="mb-4">Новорічне свято 2023</Card.Title>
                            <Button className="d-block mx-auto" variant="primary">Дивитись</Button>
                         </Card.Body></Card>
-                     <Card><Card.Img variant="top" src="holder.js/100px150" />
+                     <Card><Card.Img variant="top" src="activities/img_1.jpg" />
                         <Card.Body>
                            <Card.Title className="mb-4">Новорічне свято 2023</Card.Title>
                            <Button className="d-block mx-auto" variant="primary">Дивитись</Button>
@@ -47,46 +116,24 @@ export default function Activities() {
                      className="h-100 justify-content-center align-items-center"
                      gap={3}
                   >
-                     <Card><Card.Img variant="top" src="holder.js/100px180" />
+                     <Card><Card.Img variant="top" src="activities/img_1.jpg" />
                         <Card.Body>
                            <Card.Title className="mb-4">Новорічне свято 2023</Card.Title>
                            <Button className="d-block mx-auto" variant="primary">Дивитись</Button>
                         </Card.Body></Card>
-                     <Card><Card.Img variant="top" src="holder.js/100px180" />
+                     <Card><Card.Img variant="top" src="activities/img_2.jpg" />
                         <Card.Body>
                            <Card.Title className="mb-4">Новорічне свято 2023</Card.Title>
                            <Button className="d-block mx-auto" variant="primary">Дивитись</Button>
                         </Card.Body></Card>
-                     <Card><Card.Img variant="top" src="holder.js/100px180" />
-                        <Card.Body>
-                           <Card.Title className="mb-4">Новорічне свято 2023</Card.Title>
-                           <Button className="d-block mx-auto" variant="primary">Дивитись</Button>
-                        </Card.Body></Card>
-                  </Stack>
-               </Carousel.Item>
-               <Carousel.Item style={{ marginBottom: 55 }}>
-                  <Stack
-                     direction="horizontal"
-                     className="h-100 justify-content-center align-items-center"
-                     gap={3}
-                  >
-                     <Card><Card.Img variant="top" src="holder.js/100px180" />
-                        <Card.Body>
-                           <Card.Title className="mb-4">Новорічне свято 2023</Card.Title>
-                           <Button className="d-block mx-auto" variant="primary">Дивитись</Button>
-                        </Card.Body></Card>
-                     <Card><Card.Img variant="top" src="holder.js/100px180" />
-                        <Card.Body>
-                           <Card.Title className="mb-4">Новорічне свято 2023</Card.Title>
-                           <Button className="d-block mx-auto" variant="primary">Дивитись</Button>
-                        </Card.Body></Card>
-                     <Card><Card.Img variant="top" src="holder.js/100px180" />
+                     <Card><Card.Img variant="top" src="activities/img_3.jpg" />
                         <Card.Body>
                            <Card.Title className="mb-4">Новорічне свято 2023</Card.Title>
                            <Button className="d-block mx-auto" variant="primary">Дивитись</Button>
                         </Card.Body></Card>
                   </Stack>
-               </Carousel.Item>
+               </Carousel.Item> */}
+
             </Carousel>
          </Row>
       </Container>
