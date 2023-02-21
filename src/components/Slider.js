@@ -1,29 +1,51 @@
-import Carousel from 'react-bootstrap/Carousel';
+import React from 'react'
+import { Carousel, Stack, Card } from 'react-bootstrap';
+import slider from '../json/slider.json'
 
 export default function Slider() {
+
   return (
-   <Carousel variant="dark">
-      <Carousel.Item style={{ marginBottom: 55 }}>
-        <img
-          className="d-block w-60 h-100 mx-auto"
-          src="slider/slide_1.png"
-          alt="First slide"
-        />
-      </Carousel.Item>
-      <Carousel.Item style={{ marginBottom: 55 }}>
-        <img
-          className="d-block w-60 h-100 mx-auto"
-          src="slider/slide_2.png"
-          alt="Second slide"
-        />
-      </Carousel.Item>
-      <Carousel.Item style={{ marginBottom: 55 }}>
-        <img
-          className="d-block w-60 h-100 mx-auto"
-          src="slider/slide_3.png"
-          alt="Third slide"
-        />
-      </Carousel.Item>
+    <Carousel variant="dark">
+      {
+        slider && slider.map( item => {
+          return (
+            <Carousel.Item>
+              <Stack
+                direction="horizontal"
+                className="h-100 justify-content-center align-items-center"
+                gap={3}
+              >
+                <Card>
+                  <Card.Img
+                    className="d-block mx-auto"
+                    src={item.image}
+                    alt="First slide"
+                    width="400"
+                    height="370"
+                  />
+                </Card>
+                <Card>
+                  <Card.Img
+                    className="d-block mx-auto"
+                    src={item.image2}
+                    alt="First slide"
+                    width="400"
+                    height="370"
+                  />
+                </Card>
+                <Card>
+                  <Card.Img
+                    className="d-block mx-auto"
+                    src={item.image3}
+                    alt="First slide"
+                    width="400"
+                    height="370"
+                  />
+                </Card>
+              </Stack>
+            </Carousel.Item> )
+        } )
+      }
     </Carousel>
   );
 }

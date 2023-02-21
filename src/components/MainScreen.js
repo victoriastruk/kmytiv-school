@@ -6,7 +6,7 @@ export default function MainScreen() {
   return (
     <Row id="main">
       <Col>
-        <h1 className="text text-center mt-3 mb-3 py-3">КНЗ "Кмитівська спеціальна загальноосвітня
+        <h1 className="text text-center py-3 fw-bold">КНЗ "Кмитівська спеціальна загальноосвітня
           школа-інтернат"<br/> Житомирської обласної ради</h1>
         <Slider />
       </Col>

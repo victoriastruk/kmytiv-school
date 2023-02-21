@@ -26,8 +26,7 @@ header{
 
 .back{
   background:#99E0FF;
-   font-weight: 900;
-   font-size: 14px;
+   font-size: 12px;
    letter-spacing: 0.06cm;
 }
 .is-sticky {
@@ -50,7 +49,6 @@ header{
 
  .text{
   font-size: 30px;
-   font-weight: 900;
    color:	#2344B8;
    letter-spacing: 0.05cm;
    line-height: 1.5cm;
