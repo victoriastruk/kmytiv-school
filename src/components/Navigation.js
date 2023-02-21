@@ -1,14 +1,14 @@
-import { Container, Row, Nav, Navbar,Col } from "react-bootstrap";
+import { Container, Row, Nav, Navbar, Col } from "react-bootstrap";
 
 export default function Navigation() {
   return (
     <Container>
       <Row>
-        <Col className="d-flex justify-content-center">
-          <Navbar expand="lg" bg="back" variant="light">
+        <Col className="d-flex justify-content-center align-items-center">
+          <Navbar className="d-flex justify-content-center" expand="lg" bg="back" variant="light">
             <Navbar.Toggle aria-controls="navbarScroll" data-bs-toggle="collapse" data-bs-target="#navbarScroll" />
             <Navbar.Collapse id="navbarScroll">
-              <Nav className="align-items-center text-uppercase">
+              <Nav className="d-flex align-items-center text-uppercase">
                 <Nav.Link href="#about">Про заклад</Nav.Link>
                 <Nav.Link href="#history">Історія</Nav.Link>
                 <Nav.Link href="#directions">Напрями розвитку</Nav.Link>
