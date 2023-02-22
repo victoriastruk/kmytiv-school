@@ -19,10 +19,10 @@ export default function Collective() {
 
       <Row className='justify-content-center'>
          <Col md='4' className="d-block  mx-3">
-         <Image style={{ height: 300, width: 370 }} className="" src="collective/diagram_1.png"></Image>
+         <Image style={{ height: 300, width: 370 }} className="" src="image/collective/diagram_1.png"></Image>
          </Col>
          <Col md='4' className="d-block ml-3">
-         <Image style={{ height: 300, width: 370 }} className="" src="collective/diagram_2.png"></Image>
+         <Image style={{ height: 300, width: 370 }} className="" src="image/collective/diagram_2.png"></Image>
          </Col>
       </Row>
     </Container>

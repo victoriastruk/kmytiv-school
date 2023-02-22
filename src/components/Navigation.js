@@ -1,3 +1,4 @@
+import React from 'react';
 import { Container, Row, Nav, Navbar, Col } from "react-bootstrap";
 
 export default function Navigation() {

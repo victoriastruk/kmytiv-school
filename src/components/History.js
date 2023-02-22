@@ -1,3 +1,4 @@
+import React from 'react'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
@@ -10,7 +11,7 @@ export default function History() {
     <Container className="py-3">
       <Row className="align-items-center">
          <Col md="4">
-            <Image style={{ width: 350, height: 400 }}  className="" src="history/table.jpg"></Image>
+            <Image style={{ width: 350, height: 400 }}  className="" src="image/history/table.jpg"></Image>
          </Col>
          <Col md="8">
             <TitleBlock title="Історія" link="history"/>

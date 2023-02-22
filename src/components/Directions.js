@@ -1,3 +1,4 @@
+import React from 'react';
 import {Container, Row, Col, Image} from 'react-bootstrap'
 import TitleBlock from "./TitleBlock";
 
@@ -13,13 +14,13 @@ export default function Directions() {
          <Col md="4"  direction="horizontal"
                      className="justify-content-center align-items-center"
                      gap={3}>
-         <Image style={{ height: 300, width: 370 }} className="" src="directions/photo_1.jpg"></Image>
+         <Image style={{ height: 300, width: 370 }} className="" src="image/directions/photo_1.jpg"></Image>
          </Col>
          <Col md="4">
-         <Image style={{ height: 300, width: 370 }} className="" src="directions/photo_2.jpg"></Image>
+         <Image style={{ height: 300, width: 370 }} className="" src="image/directions/photo_2.jpg"></Image>
          </Col>
          <Col md="4">
-         <Image style={{ height: 300, width: 370 }} className="" src="directions/photo_3.jpg"></Image>
+         <Image style={{ height: 300, width: 370 }} className="" src="image/directions/photo_3.jpg"></Image>
          </Col>
       </Row>
       <Row> 

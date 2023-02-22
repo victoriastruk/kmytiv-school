@@ -108,7 +108,7 @@ const onSubmit = (event) => {
  </form>
 </Col>
 <Col md="6">
-<Image style={{ width: 550, height: 365 }} src="contacts/school.png"></Image>
+<Image style={{ width: 550, height: 365 }} src="image/contacts/school.png"></Image>
 </Col>
    </Row>
    </Container>

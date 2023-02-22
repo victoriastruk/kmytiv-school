@@ -1,8 +1,9 @@
+import React from 'react';
 import {Container, Row, Col} from 'react-bootstrap';
 
 export default function TitleBlock(props) {
   return (
-   <Container fluid="md">
+   <Container>
       <Row>
          <Col>
          <h2 id={props.link} className="title text-center text-uppercase">{props.title}</h2>
