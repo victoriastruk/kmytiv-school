@@ -5,11 +5,11 @@ import About from './components/About';
 import History from './components/History';
 import Directions from './components/Directions';
 import Activities from './components/Activities';
-
-import './App.css';
 import Collective from './components/Collective';
 import Contacts from './components/Contacts';
 import Footer from './components/Footer';
+
+import './App.css';
 
 const App = () => (
    

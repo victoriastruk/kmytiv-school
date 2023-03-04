@@ -32,7 +32,6 @@ const emailHandler = (e) => {
     } else {
       setEmailError('')
     }
-   //console.log(e.target.value);
 }
 
 const topicHandler = (e) => {
@@ -43,7 +42,6 @@ const topicHandler = (e) => {
      else {
       setTopicError('')
     }
-    //console.log(e.target.value);
 }
 
 const blurHandler = (e) => {
