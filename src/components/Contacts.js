@@ -10,7 +10,7 @@ const [text, setText] = useState('');
 const [emailDirty, setEmialDirty] = useState(false)
 const [topicDirty, setTopicDirty] = useState(false)
 const [emailError, setEmailError] = useState('E-mail не може бути порожнім!')
-const [topicError, setTopicError] = useState('Пароль не може бути порожнім!')
+const [topicError, setTopicError] = useState('Поле "Тема" не може бути порожнім!')
 const [formValid, setFormValid] = useState(false)
 
 useEffect(() => {
@@ -75,9 +75,14 @@ const onSubmit = (event) => {
    <Container fluid="md">
    <Row>
       <Col>
-      <TitleBlock title="Контакти" link="contacts"/>
+      <TitleBlock title="Зворотній зв'язок" link="contacts"/>
       </Col>
    </Row>
+   <Row>
+         <Col className="d-block text-center mx-auto mb-4 lead">
+         <div>Щоб поставити питання чи поділитись з нами своїми думками, заповніть форму нижче</div>
+         </Col>
+      </Row>
    <Row>
 <Col md='6'>
 <form action="#" method="GET" className="form-feedback" name="feedback"  onSubmit={ onSubmit } >

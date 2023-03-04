@@ -1,13 +1,14 @@
 import React from 'react'
 import { Carousel, Stack, Card } from 'react-bootstrap';
-import slider from '../json/slider.json'
+import data from '../json/data.json'
 
 export default function Slider() {
+  console.log(data.slider)
 
   return (
     <Carousel variant="dark">
       {
-        slider && slider.map( item => {
+         data.slider.map(item => {
           return (
             <Carousel.Item>
               <Stack

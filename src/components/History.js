@@ -6,16 +6,20 @@ import Alert from 'react-bootstrap/Alert'
 import Image from 'react-bootstrap/Image'
 import TitleBlock from './TitleBlock'
 
+import data from '../json/data.json'
+import Highlighter from "react-highlight-words";
+
+
 export default function History() {
   return (
     <Container className="py-3">
       <Row className="align-items-center">
          <Col md="4">
-            <Image style={{ width: 350, height: 400 }}  className="" src="image/history/table.jpg"></Image>
+            <Image style={{ width: 350, height: 400 }}  className="" src={data.history.img}></Image>
          </Col>
          <Col md="8">
             <TitleBlock title="Історія" link="history"/>
-               <div> <strong>Кмитів</strong> -це чудові краєвиди, свіже повітря, спів птахів - райська місцина, 
+               {/* <div> <strong>Кмитів</strong> -це чудові краєвиди, свіже повітря, спів птахів - райська місцина, 
                яку колись <strong>пани Сумовські</strong> обрали собі для життя. І добре б їм там жилося, якби 
                <strong> не революція 1917 року.</strong> В той час палали не тільки маєтки поміщиків, а й будинки заможних селян.
                Важко було утримати від розправи над панами революційно настроєних селян.
@@ -23,11 +27,26 @@ export default function History() {
                Доброю була, лагідною...І <strong>заповіла свій маєток дітям-сиротам,</strong> адже багато їх було в революційні часи.</div>
                <div><strong>З 23 серпня 1973 року,</strong> після реконструкції та добудови ,
                стала функціонувати як <strong>спеціальна школа-інтернат для дітей з особливими освітніми потребами.</strong></div>
-               <br></br>
-
+               <br></br> */}
+                <Highlighter
+                  highlightClassName="strong"
+                  searchWords={["Кмитів",
+                     "пани Сумовські", "революція 1917 року.", "заповіла свій маєток дітям-сиротам,",
+                     "трудове навчання", "спортивні секції", "20 гуртків за інтересами."]}
+                  autoEscape={true}
+                  textToHighlight={data.history.text}
+               />
+               <br/>
+               <Highlighter
+                  highlightClassName="strong"
+                  searchWords={["З 23 серпня 1973 року,",
+                     "спеціальна школа-інтернат для дітей з особливими освітніми потребами."]}
+                  autoEscape={true}
+                  textToHighlight={data.history.text2}
+               />
                <figure>
                <blockquote className="d-block mr-0" cite="https://krasotkina.com/%D0%B2%D1%96%D1%80%D1%88%D1%96%20%D0%BF%D1%80%D0%BE%20%D0%B2%D1%87%D0%B8%D1%82%D0%B5%D0%BB%D1%96%D0%B2%20%D1%82%D0%B0%20%D1%88%D0%BA%D0%BE%D0%BB%D1%83/">
-                  <p><i>Школа - велика дитяча країна,<br></br>
+               <br/><p><i>Школа - велика дитяча країна,<br></br>
                   В ній відкривається білий наш світ.<br></br>
                   Тут пізнає себе кожна дитина,<br></br>
                   І відправляється звідси в політ.</i></p>

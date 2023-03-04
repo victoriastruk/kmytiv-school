@@ -69,11 +69,11 @@ header{
  }
 .about__text{
   /* letter-spacing: 0.06cm; */
-  line-height: 0.8cm;
+  line-height: 0.8cm; 
 }
 .strong{
   font-weight: bold;
-background-color:transparent;
+  background-color:transparent;
 }
 .directions{
   font-weight: 400;

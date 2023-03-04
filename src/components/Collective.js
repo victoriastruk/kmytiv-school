@@ -1,6 +1,7 @@
 import React from 'react'
 import {Container, Row, Col, Image} from 'react-bootstrap'
 import TitleBlock from "./TitleBlock";
+import data from '../json/data.json'
 
 export default function Collective() {
   return (
@@ -18,12 +19,15 @@ export default function Collective() {
       </Row>
 
       <Row className='justify-content-center'>
-         <Col md='4' className="d-block  mx-3">
-         <Image style={{ height: 300, width: 370 }} className="" src="image/collective/diagram_1.png"></Image>
+      {
+        data.collective.map(item =>{
+          return(
+            <Col md='4' className="d-block  mx-3">
+         <Image style={{ height: 300, width: 370 }} className="" src={item.image}></Image>
          </Col>
-         <Col md='4' className="d-block ml-3">
-         <Image style={{ height: 300, width: 370 }} className="" src="image/collective/diagram_2.png"></Image>
-         </Col>
+          )
+        })
+      }
       </Row>
     </Container>
   )

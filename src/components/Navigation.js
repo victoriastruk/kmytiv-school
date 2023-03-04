@@ -15,7 +15,7 @@ export default function Navigation() {
                 <Nav.Link href="#directions">Напрями розвитку</Nav.Link>
                 <Nav.Link href="#collective">Педадогічний колектив</Nav.Link>
                 <Nav.Link href="#activities">Заходи</Nav.Link>
-                <Nav.Link href="#contacts">Контакти</Nav.Link>
+                <Nav.Link href="#contacts">Зворотній зв'язок</Nav.Link>
               </Nav>
             </Navbar.Collapse>
           </Navbar>
