@@ -3,10 +3,6 @@ body{
 }
 
 #root{
-   /* background-image: url('../public/bg.png');
-   background-size: no-repeat;
-   background-position: center;
-   background-size: cover;  */
    background: rgba(255, 241, 117, 0.48);
    height: 100%;
    overflow-x: hidden;
@@ -68,7 +64,6 @@ header{
    margin: 0 auto;
  }
 .about__text{
-  /* letter-spacing: 0.06cm; */
   line-height: 0.8cm; 
 }
 .strong{
@@ -83,9 +78,7 @@ header{
 .activities{
   margin-top: 5rem;
 }
-.form-feedback{
 
-}
 .form-feedback__wrap{
   display: flex;
   flex-direction: column;

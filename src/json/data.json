@@ -35,19 +35,68 @@
             "id": 1,
             "image": "../image/directions/photo_1.jpg"
          },
-          {
+         {
             "id": 2,
             "image": "../image/directions/photo_3.jpg"
          }
       ],
       "description": "Для створення оптимальних умов фізичного, психічного, інтелектуального розвитку дітей з особливими освітніми потребами, реабілітація в закладі носить комплексний характер і забезпечується поєднанням спеціального супроводу:педагогічного ( корекційного ); психологічного; соціального; медичного; професійно – трудового."
    },
-   "collective": [{
-      "id": "1",
-      "image": "../image/collective/diagram_1.png"
-   },
-   {
-      "id": "2",
-      "image": "../image/collective/diagram_2.png"
-   }]
+   "collective": [
+      {
+         "id": "1",
+         "image": "../image/collective/diagram_1.png"
+      },
+      {
+         "id": "2",
+         "image": "../image/collective/diagram_2.png"
+      }
+   ],
+   "activities": [
+      {
+         "id": 1,
+         "title": "Новорічне свято 2022",
+         "img": "../image/activities/img_1.jpg"
+      },
+      {
+         "id": 2,
+         "title": "Екскрсія в Добропарк",
+         "img": "../image/activities/img_2.jpg"
+      },
+      {
+         "id": 3,
+         "title": "Ой, Андрію, даруй нам надію!",
+         "img": "../image/activities/img_3.jpg"
+      },
+      {
+         "id": 4,
+         "title": "Свято осені",
+         "img": "../image/activities/img_4.jpg"
+      },
+      {
+         "id": 5,
+         "title": "Екскурсія до Коростишівського парку скульптур",
+         "img": "../image/activities/img_5.jpg"
+      },
+      {
+         "id": 6,
+         "title": "Юні олімпійці",
+         "img": "../image/activities/img_6.jpg"
+      },
+      {
+         "id": 7,
+         "title": "Травневі заходи",
+         "img": "../image/activities/img_7.jpg"
+      },
+      {
+         "id": 8,
+         "title": "Бібліотека",
+         "img": "../image/activities/img_8.jpg"
+      },
+      {
+         "id": 9,
+         "title": "Шкільне життя",
+         "img": "../image/activities/img_9.jpg"
+      }
+   ]
 }

@@ -28,17 +28,14 @@ export default function Activities() {
                      <Card><Card.Img variant="top" src="image/activities/img_1.jpg" />
                         <Card.Body>
                            <Card.Title className="mb-4 text-center">Новорічне свято 2023</Card.Title>
-                           <Button className="d-block mx-auto" variant="primary">Дивитись</Button>
                         </Card.Body></Card>
                      <Card><Card.Img variant="top" src="image/activities/img_2.jpg" />
                         <Card.Body>
                            <Card.Title className="mb-4 text-center">Екскурсія в Добропарк</Card.Title>
-                           <Button className="d-block mx-auto" variant="primary">Дивитись</Button>
                         </Card.Body></Card>
                      <Card><Card.Img variant="top" src="image/activities/img_3.jpg" />
                         <Card.Body>
                            <Card.Title className="mb-4 text-center">Ой,Андрію, даруй нам надію!</Card.Title>
-                           <Button className="d-block mx-auto" variant="primary">Дивитись</Button>
                         </Card.Body></Card>
                   </Stack>
                </Carousel.Item>
@@ -51,17 +48,17 @@ export default function Activities() {
                      <Card><Card.Img variant="top" src="image/activities/img_1.jpg" />
                         <Card.Body>
                            <Card.Title className="mb-4 text-center">Новорічне свято 2023</Card.Title>
-                           <Button className="d-block mx-auto" variant="primary">Дивитись</Button>
+                           {/* <Button className="d-block mx-auto" variant="primary">Дивитись</Button> */}
                         </Card.Body></Card>
                      <Card><Card.Img variant="top" src="image/activities/img_2.jpg" />
                         <Card.Body>
                            <Card.Title className="mb-4 text-center">Екскурсія в Добропарк</Card.Title>
-                           <Button className="d-block mx-auto" variant="primary">Дивитись</Button>
+                           {/* <Button className="d-block mx-auto" variant="primary">Дивитись</Button> */}
                         </Card.Body></Card>
                      <Card><Card.Img variant="top" src="image/activities/img_3.jpg" />
                         <Card.Body>
                            <Card.Title className="mb-4 text-center">Ой,Андрію, даруй нам надію!</Card.Title>
-                           <Button className="d-block mx-auto" variant="primary">Дивитись</Button>
+                           {/* <Button className="d-block mx-auto" variant="primary">Дивитись</Button> */}
                         </Card.Body></Card>
                   </Stack>
                </Carousel.Item>
@@ -74,17 +71,17 @@ export default function Activities() {
                      <Card><Card.Img variant="top" src="image/activities/img_1.jpg" />
                         <Card.Body>
                            <Card.Title className="mb-4 text-center">Новорічне свято 2023</Card.Title>
-                           <Button className="d-block mx-auto" variant="primary">Дивитись</Button>
+                           {/* <Button className="d-block mx-auto" variant="primary">Дивитись</Button> */}
                         </Card.Body></Card>
                      <Card><Card.Img variant="top" src="image/activities/img_2.jpg" />
                         <Card.Body>
                            <Card.Title className="mb-4 text-center">Екскурсія в Добропарк</Card.Title>
-                           <Button className="d-block mx-auto" variant="primary">Дивитись</Button>
+                           {/* <Button className="d-block mx-auto" variant="primary">Дивитись</Button> */}
                         </Card.Body></Card>
                      <Card><Card.Img variant="top" src="image/activities/img_3.jpg" />
                         <Card.Body>
                            <Card.Title className="mb-4 text-center">Ой,Андрію, даруй нам надію!</Card.Title>
-                           <Button className="d-block mx-auto" variant="primary">Дивитись</Button>
+                           {/* <Button className="d-block mx-auto" variant="primary">Дивитись</Button> */}
                         </Card.Body></Card>
                   </Stack>
                </Carousel.Item>
