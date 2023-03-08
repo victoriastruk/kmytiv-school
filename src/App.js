@@ -1,4 +1,5 @@
 import React from 'react';
+import { ThemeProvider } from 'react-bootstrap';
 import Header from './components/Header';
 import MainScreen from './components/MainScreen';
 import About from './components/About';
@@ -13,8 +14,11 @@ import ScrollButton from './components/ScrollButton';
 import './App.css';
 
 const App = () => (
-   
-   <>
+   < ThemeProvider
+   breakpoints = { [ 'xxxl' ,  'xxl' ,  'xl' ,  'lg' ,  'md' ,  'sm' ,  'xs' ,  'xxs' ] }
+   minBreakpoint = " xxs "
+ > 
+  <>
       <Header />
       <MainScreen />
       <About />
@@ -26,7 +30,7 @@ const App = () => (
       <ScrollButton />
       <Footer />
    </>
-
+</ ThemeProvider > 
 );
 
 export default App;

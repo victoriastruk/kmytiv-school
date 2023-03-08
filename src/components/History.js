@@ -2,7 +2,6 @@ import React from 'react'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
-import Alert from 'react-bootstrap/Alert'
 import Image from 'react-bootstrap/Image'
 import TitleBlock from './TitleBlock'
 
@@ -19,15 +18,6 @@ export default function History() {
          </Col>
          <Col md="8">
             <TitleBlock title="Історія" link="history"/>
-               {/* <div> <strong>Кмитів</strong> -це чудові краєвиди, свіже повітря, спів птахів - райська місцина, 
-               яку колись <strong>пани Сумовські</strong> обрали собі для життя. І добре б їм там жилося, якби 
-               <strong> не революція 1917 року.</strong> В той час палали не тільки маєтки поміщиків, а й будинки заможних селян.
-               Важко було утримати від розправи над панами революційно настроєних селян.
-               Але пані Сумовській це вдалося, тому що поважали її люди в селі.
-               Доброю була, лагідною...І <strong>заповіла свій маєток дітям-сиротам,</strong> адже багато їх було в революційні часи.</div>
-               <div><strong>З 23 серпня 1973 року,</strong> після реконструкції та добудови ,
-               стала функціонувати як <strong>спеціальна школа-інтернат для дітей з особливими освітніми потребами.</strong></div>
-               <br></br> */}
                 <Highlighter
                   highlightClassName="strong"
                   searchWords={["Кмитів",

@@ -3,12 +3,12 @@ import { Carousel, Stack, Card } from 'react-bootstrap';
 import data from '../json/data.json'
 
 export default function Slider() {
-  console.log(data.slider)
+  console.log( data.slider )
 
   return (
     <Carousel variant="dark">
       {
-         data.slider.map(item => {
+        data.slider.map( item => {
           return (
             <Carousel.Item>
               <Stack
@@ -21,7 +21,7 @@ export default function Slider() {
                     className="d-block mx-auto"
                     src={item.image}
                     alt="First slide"
-                    width="400"
+                    width="450"
                     height="370"
                   />
                 </Card>
@@ -30,7 +30,7 @@ export default function Slider() {
                     className="d-block mx-auto"
                     src={item.image2}
                     alt="First slide"
-                    width="400"
+                    width="450"
                     height="370"
                   />
                 </Card>
@@ -39,7 +39,7 @@ export default function Slider() {
                     className="d-block mx-auto"
                     src={item.image3}
                     alt="First slide"
-                    width="400"
+                    width="450"
                     height="370"
                   />
                 </Card>

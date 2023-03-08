@@ -1,5 +1,5 @@
 import React from 'react';
-import {Container, Row, Col, Button, Card, Carousel, Stack} from 'react-bootstrap'
+import {Container, Row, Col, Card, Carousel, Stack} from 'react-bootstrap'
 import data from '../json/data.json'
 
 import TitleBlock from './TitleBlock';
