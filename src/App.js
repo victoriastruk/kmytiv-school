@@ -8,6 +8,7 @@ import Activities from './components/Activities';
 import Collective from './components/Collective';
 import Contacts from './components/Contacts';
 import Footer from './components/Footer';
+import ScrollButton from './components/ScrollButton';
 
 import './App.css';
 
@@ -22,6 +23,7 @@ const App = () => (
       <Collective />
       <Activities />  
       <Contacts />
+      <ScrollButton />
       <Footer />
    </>
 
