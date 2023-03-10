@@ -14,7 +14,7 @@ export default function Directions() {
          </Row>
          <Row
             className="justify-content-center align-items-center"
-            gap={3}>
+            gap={2}>
             {data.directions.images.map( item => {
                return (
                   <Col md="4">

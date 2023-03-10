@@ -4,7 +4,7 @@
          "id": "1",
          "image": "./image/slider/img_1.png",
          "image2": "./image/slider/img_3.png",
-         "image3": "../image/slider/img_7.png"
+         "image3": "./image/slider/img_7.png"
       },
       {
          "id": "2",
