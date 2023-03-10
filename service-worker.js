@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/kmytiv-school/precache-manifest.abf5ba3927c169b8249e59603557503b.js"
+  "/kmytiv-school/precache-manifest.86c295d000ac022f90be10a407890855.js"
 );
 
 workbox.clientsClaim();

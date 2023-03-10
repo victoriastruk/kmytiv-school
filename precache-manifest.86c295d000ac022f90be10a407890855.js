@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "c36899812ad365d13da2",
+    "revision": "80dfdb12637d31b3bc52",
     "url": "/kmytiv-school/static/css/main.7e20500d.chunk.css"
   },
   {
-    "revision": "c36899812ad365d13da2",
-    "url": "/kmytiv-school/static/js/main.c3689981.chunk.js"
+    "revision": "80dfdb12637d31b3bc52",
+    "url": "/kmytiv-school/static/js/main.80dfdb12.chunk.js"
   },
   {
     "revision": "9eeee379aeaff73d3fad",
@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/kmytiv-school/static/js/runtime~main.fa89b2b4.js"
   },
   {
-    "revision": "5dac84d1eb8e22ef91f5c3398b97090a",
+    "revision": "fcb071e398b8ba2b014b9858f9a3591f",
     "url": "/kmytiv-school/index.html"
   }
 ];
