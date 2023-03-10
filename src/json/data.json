@@ -2,21 +2,21 @@
    "slider": [
       {
          "id": "1",
-         "image": "../image/slider/img_1.png",
-         "image2": "../image/slider/img_3.png",
+         "image": "./image/slider/img_1.png",
+         "image2": "./image/slider/img_3.png",
          "image3": "../image/slider/img_7.png"
       },
       {
          "id": "2",
-         "image": "../image/slider/img_4.png",
-         "image2": "../image/slider/img_5.png",
-         "image3": "../image/slider/img_6.png"
+         "image": "./image/slider/img_4.png",
+         "image2": "./image/slider/img_5.png",
+         "image3": "./image/slider/img_6.png"
       },
       {
          "id": "3",
-         "image": "../image/slider/img_8.png",
-         "image2": "../image/slider/img_2.png",
-         "image3": "../image/slider/img_9.png"
+         "image": "./image/slider/img_8.png",
+         "image2": "./image/slider/img_2.png",
+         "image3": "./image/slider/img_9.png"
       }
    ],
    "about": {
@@ -25,7 +25,7 @@
       "p2": "До закладу зараховуються: діти з порушенням інтелектуального розвитку з 6(7) років та діти з відповідним діагнозом з такими медичними показаннями:"
    },
    "history": {
-      "img": "../image/history/table.jpg",
+      "img": "./image/history/table.jpg",
       "text": "Кмитів -це чудові краєвиди, свіже повітря, спів птахів - райська місцина, яку колись пани Сумовські обрали собі для життя. І добре б їм там жилося, якби не революція 1917 року. В той час палали не тільки маєтки поміщиків, а й будинки заможних селян. Важко було утримати від розправи над панами революційно настроєних селян. Але пані Сумовській це вдалося, тому що поважали її люди в селі. Доброю була, лагідною...І заповіла свій маєток дітям-сиротам, адже багато їх було в революційні часи.",
       "text2": "З 23 серпня 1973 року, після реконструкції та добудови , стала функціонувати як спеціальна школа-інтернат для дітей з особливими освітніми потребами."
    },
@@ -33,11 +33,11 @@
       "images": [
          {
             "id": 1,
-            "image": "../image/directions/photo_1.jpg"
+            "image": "./image/directions/photo_1.jpg"
          },
          {
             "id": 2,
-            "image": "../image/directions/photo_3.jpg"
+            "image": "./image/directions/photo_3.jpg"
          }
       ],
       "description": "Для створення оптимальних умов фізичного, психічного, інтелектуального розвитку дітей з особливими освітніми потребами, реабілітація в закладі носить комплексний характер і забезпечується поєднанням спеціального супроводу:педагогічного ( корекційного ); психологічного; соціального; медичного; професійно – трудового."
@@ -45,40 +45,40 @@
    "collective": [
       {
          "id": "1",
-         "image": "../image/collective/diagram_1.png"
+         "image": "./image/collective/diagram_1.png"
       },
       {
          "id": "2",
-         "image": "../image/collective/diagram_2.png"
+         "image": "./image/collective/diagram_2.png"
       }
    ],
    "activities": [
       {
          "id": 1,
          "title_1": "Новорічне свято",
-         "img_1": "../image/activities/img_1.jpg",
+         "img_1": "./image/activities/img_1.jpg",
          "title_2": "Екскурсія в Добропарк",
-         "img_2": "../image/activities/img_2.jpg",
+         "img_2": "./image/activities/img_2.jpg",
          "title_3": "Ой, Андрію, даруй нам надію!",
-         "img_3": "../image/activities/img_3.jpg"
+         "img_3": "./image/activities/img_3.jpg"
       },
       {
          "id": 2,
          "title_1": "Свято осені",
-         "img_1": "../image/activities/img_4.jpg",
+         "img_1": "./image/activities/img_4.jpg",
          "title_2": "Бібліотека",
-         "img_2": "../image/activities/img_5.jpg",
+         "img_2": "./image/activities/img_5.jpg",
          "title_3": "Юні олімпійці",
-         "img_3": "../image/activities/img_6.jpg"
+         "img_3": "./image/activities/img_6.jpg"
       },
       {
          "id": 3,
          "title_1": "Травневі заходи",
-         "img_1": "../image/activities/img_7.jpg",
+         "img_1": "./image/activities/img_7.jpg",
          "title_2": "Екскурсія до музею",
-         "img_2": "../image/activities/img_8.jpg",
+         "img_2": "./image/activities/img_8.jpg",
          "title_3": "Шкільне життя",
-         "img_3": "../image/activities/img_9.jpg"
+         "img_3": "./image/activities/img_9.jpg"
       }
    ]
 }
