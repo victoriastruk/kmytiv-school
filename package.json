@@ -2,7 +2,13 @@
   "name": "kmytiv-school",
   "version": "0.1.0",
   "homepage": "https://victoriastruk.github.io/kmytiv-school",
-  "private": true,
+  "author": "Victoria Struk",
+  "description": "A simple business card site for a boarding school",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/victoriastruk/kmytiv-school"
+  },
   "dependencies": {
     "-": "^0.0.1",
     "@testing-library/jest-dom": "^5.16.5",
