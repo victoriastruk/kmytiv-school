@@ -1,9 +1,4 @@
 {
-  "-@0.0.1": {
-    "licenses": "Custom: https://github.com/parzh/create-package-typescript",
-    "path": "C:\\Users\\Lenovo\\Desktop\\kmytiv-school\\node_modules\\-",
-    "licenseFile": "C:\\Users\\Lenovo\\Desktop\\kmytiv-school\\node_modules\\-\\README.md"
-  },
   "@adobe/css-tools@4.0.2": {
     "licenses": "MIT",
     "repository": "https://github.com/adobe/css-tools",
@@ -1120,19 +1115,6 @@
     "path": "C:\\Users\\Lenovo\\Desktop\\kmytiv-school\\node_modules\\@eslint-community\\regexpp",
     "licenseFile": "C:\\Users\\Lenovo\\Desktop\\kmytiv-school\\node_modules\\@eslint-community\\regexpp\\LICENSE"
   },
-  "@eslint/eslintrc@2.0.1": {
-    "licenses": "MIT",
-    "repository": "https://github.com/eslint/eslintrc",
-    "publisher": "Nicholas C. Zakas",
-    "path": "C:\\Users\\Lenovo\\Desktop\\kmytiv-school\\node_modules\\@eslint\\eslintrc",
-    "licenseFile": "C:\\Users\\Lenovo\\Desktop\\kmytiv-school\\node_modules\\@eslint\\eslintrc\\LICENSE"
-  },
-  "@eslint/js@8.36.0": {
-    "licenses": "MIT",
-    "repository": "https://github.com/eslint/eslint",
-    "path": "C:\\Users\\Lenovo\\Desktop\\kmytiv-school\\node_modules\\@eslint\\js",
-    "licenseFile": "C:\\Users\\Lenovo\\Desktop\\kmytiv-school\\node_modules\\@eslint\\js\\LICENSE"
-  },
   "@humanwhocodes/config-array@0.11.8": {
     "licenses": "Apache-2.0",
     "repository": "https://github.com/humanwhocodes/config-array",
@@ -2116,6 +2098,14 @@
     "path": "C:\\Users\\Lenovo\\Desktop\\kmytiv-school\\node_modules\\abab",
     "licenseFile": "C:\\Users\\Lenovo\\Desktop\\kmytiv-school\\node_modules\\abab\\LICENSE.md"
   },
+  "abbrev@1.1.1": {
+    "licenses": "ISC",
+    "repository": "https://github.com/isaacs/abbrev-js",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "path": "C:\\Users\\Lenovo\\Desktop\\kmytiv-school\\node_modules\\abbrev",
+    "licenseFile": "C:\\Users\\Lenovo\\Desktop\\kmytiv-school\\node_modules\\abbrev\\LICENSE"
+  },
   "accepts@1.3.8": {
     "licenses": "MIT",
     "repository": "https://github.com/jshttp/accepts",
@@ -2311,12 +2301,6 @@
     "path": "C:\\Users\\Lenovo\\Desktop\\kmytiv-school\\node_modules\\argparse",
     "licenseFile": "C:\\Users\\Lenovo\\Desktop\\kmytiv-school\\node_modules\\argparse\\LICENSE"
   },
-  "argparse@2.0.1": {
-    "licenses": "Python-2.0",
-    "repository": "https://github.com/nodeca/argparse",
-    "path": "C:\\Users\\Lenovo\\Desktop\\kmytiv-school\\node_modules\\@eslint\\eslintrc\\node_modules\\argparse",
-    "licenseFile": "C:\\Users\\Lenovo\\Desktop\\kmytiv-school\\node_modules\\@eslint\\eslintrc\\node_modules\\argparse\\LICENSE"
-  },
   "aria-query@5.1.3": {
     "licenses": "Apache-2.0",
     "repository": "https://github.com/A11yance/aria-query",
@@ -2324,6 +2308,15 @@
     "email": "splendidnoise@gmail.com",
     "path": "C:\\Users\\Lenovo\\Desktop\\kmytiv-school\\node_modules\\aria-query",
     "licenseFile": "C:\\Users\\Lenovo\\Desktop\\kmytiv-school\\node_modules\\aria-query\\LICENSE"
+  },
+  "array-find-index@1.0.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/array-find-index",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "C:\\Users\\Lenovo\\Desktop\\kmytiv-school\\node_modules\\array-find-index",
+    "licenseFile": "C:\\Users\\Lenovo\\Desktop\\kmytiv-school\\node_modules\\array-find-index\\license"
   },
   "array-flatten@1.1.1": {
     "licenses": "MIT",
@@ -3433,8 +3426,8 @@
     "repository": "https://github.com/visionmedia/debug",
     "publisher": "TJ Holowaychuk",
     "email": "tj@vision-media.ca",
-    "path": "C:\\Users\\Lenovo\\Desktop\\kmytiv-school\\node_modules\\eslint-plugin-import\\node_modules\\debug",
-    "licenseFile": "C:\\Users\\Lenovo\\Desktop\\kmytiv-school\\node_modules\\eslint-plugin-import\\node_modules\\debug\\LICENSE"
+    "path": "C:\\Users\\Lenovo\\Desktop\\kmytiv-school\\node_modules\\license-checker\\node_modules\\debug",
+    "licenseFile": "C:\\Users\\Lenovo\\Desktop\\kmytiv-school\\node_modules\\license-checker\\node_modules\\debug\\LICENSE"
   },
   "debug@4.3.4": {
     "licenses": "MIT",
@@ -3443,6 +3436,14 @@
     "email": "josh.junon@protonmail.com",
     "path": "C:\\Users\\Lenovo\\Desktop\\kmytiv-school\\node_modules\\debug",
     "licenseFile": "C:\\Users\\Lenovo\\Desktop\\kmytiv-school\\node_modules\\debug\\LICENSE"
+  },
+  "debuglog@1.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sam-github/node-debuglog",
+    "publisher": "Sam Roberts",
+    "email": "sam@strongloop.com",
+    "path": "C:\\Users\\Lenovo\\Desktop\\kmytiv-school\\node_modules\\debuglog",
+    "licenseFile": "C:\\Users\\Lenovo\\Desktop\\kmytiv-school\\node_modules\\debuglog\\LICENSE"
   },
   "decimal.js@10.4.3": {
     "licenses": "MIT",
@@ -3591,6 +3592,15 @@
     "url": "http://substack.net",
     "path": "C:\\Users\\Lenovo\\Desktop\\kmytiv-school\\node_modules\\detective",
     "licenseFile": "C:\\Users\\Lenovo\\Desktop\\kmytiv-school\\node_modules\\detective\\LICENSE"
+  },
+  "dezalgo@1.0.4": {
+    "licenses": "ISC",
+    "repository": "https://github.com/npm/dezalgo",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "path": "C:\\Users\\Lenovo\\Desktop\\kmytiv-school\\node_modules\\dezalgo",
+    "licenseFile": "C:\\Users\\Lenovo\\Desktop\\kmytiv-school\\node_modules\\dezalgo\\LICENSE"
   },
   "didyoumean@1.2.2": {
     "licenses": "Apache-2.0",
@@ -3978,8 +3988,8 @@
     "publisher": "Sindre Sorhus",
     "email": "sindresorhus@gmail.com",
     "url": "https://sindresorhus.com",
-    "path": "C:\\Users\\Lenovo\\Desktop\\kmytiv-school\\node_modules\\eslint\\node_modules\\escape-string-regexp",
-    "licenseFile": "C:\\Users\\Lenovo\\Desktop\\kmytiv-school\\node_modules\\eslint\\node_modules\\escape-string-regexp\\license"
+    "path": "C:\\Users\\Lenovo\\Desktop\\kmytiv-school\\node_modules\\react-dev-utils\\node_modules\\escape-string-regexp",
+    "licenseFile": "C:\\Users\\Lenovo\\Desktop\\kmytiv-school\\node_modules\\react-dev-utils\\node_modules\\escape-string-regexp\\license"
   },
   "escodegen@2.0.0": {
     "licenses": "BSD-2-Clause",
@@ -4107,14 +4117,6 @@
     "email": "ricardogobbosouza@yahoo.com.br",
     "path": "C:\\Users\\Lenovo\\Desktop\\kmytiv-school\\node_modules\\eslint-webpack-plugin",
     "licenseFile": "C:\\Users\\Lenovo\\Desktop\\kmytiv-school\\node_modules\\eslint-webpack-plugin\\LICENSE"
-  },
-  "eslint@8.36.0": {
-    "licenses": "MIT",
-    "repository": "https://github.com/eslint/eslint",
-    "publisher": "Nicholas C. Zakas",
-    "email": "nicholas+npm@nczconsulting.com",
-    "path": "C:\\Users\\Lenovo\\Desktop\\kmytiv-school\\node_modules\\eslint",
-    "licenseFile": "C:\\Users\\Lenovo\\Desktop\\kmytiv-school\\node_modules\\eslint\\LICENSE"
   },
   "espree@9.5.0": {
     "licenses": "BSD-2-Clause",
@@ -4648,15 +4650,6 @@
     "path": "C:\\Users\\Lenovo\\Desktop\\kmytiv-school\\node_modules\\globals",
     "licenseFile": "C:\\Users\\Lenovo\\Desktop\\kmytiv-school\\node_modules\\globals\\license"
   },
-  "globals@13.20.0": {
-    "licenses": "MIT",
-    "repository": "https://github.com/sindresorhus/globals",
-    "publisher": "Sindre Sorhus",
-    "email": "sindresorhus@gmail.com",
-    "url": "https://sindresorhus.com",
-    "path": "C:\\Users\\Lenovo\\Desktop\\kmytiv-school\\node_modules\\@eslint\\eslintrc\\node_modules\\globals",
-    "licenseFile": "C:\\Users\\Lenovo\\Desktop\\kmytiv-school\\node_modules\\@eslint\\eslintrc\\node_modules\\globals\\license"
-  },
   "globalthis@1.0.3": {
     "licenses": "MIT",
     "repository": "https://github.com/ljharb/System.global",
@@ -4827,6 +4820,15 @@
     "url": "https://philbooth.me/",
     "path": "C:\\Users\\Lenovo\\Desktop\\kmytiv-school\\node_modules\\hoopy",
     "licenseFile": "C:\\Users\\Lenovo\\Desktop\\kmytiv-school\\node_modules\\hoopy\\LICENSE"
+  },
+  "hosted-git-info@2.8.9": {
+    "licenses": "ISC",
+    "repository": "https://github.com/npm/hosted-git-info",
+    "publisher": "Rebecca Turner",
+    "email": "me@re-becca.org",
+    "url": "http://re-becca.org",
+    "path": "C:\\Users\\Lenovo\\Desktop\\kmytiv-school\\node_modules\\hosted-git-info",
+    "licenseFile": "C:\\Users\\Lenovo\\Desktop\\kmytiv-school\\node_modules\\hosted-git-info\\LICENSE"
   },
   "hpack.js@2.1.6": {
     "licenses": "MIT",
@@ -5773,14 +5775,6 @@
     "path": "C:\\Users\\Lenovo\\Desktop\\kmytiv-school\\node_modules\\js-yaml",
     "licenseFile": "C:\\Users\\Lenovo\\Desktop\\kmytiv-school\\node_modules\\js-yaml\\LICENSE"
   },
-  "js-yaml@4.1.0": {
-    "licenses": "MIT",
-    "repository": "https://github.com/nodeca/js-yaml",
-    "publisher": "Vladimir Zapparov",
-    "email": "dervus.grim@gmail.com",
-    "path": "C:\\Users\\Lenovo\\Desktop\\kmytiv-school\\node_modules\\@eslint\\eslintrc\\node_modules\\js-yaml",
-    "licenseFile": "C:\\Users\\Lenovo\\Desktop\\kmytiv-school\\node_modules\\@eslint\\eslintrc\\node_modules\\js-yaml\\LICENSE"
-  },
   "jsdom@16.7.0": {
     "licenses": "MIT",
     "repository": "https://github.com/jsdom/jsdom",
@@ -5915,10 +5909,11 @@
     "licenseFile": "C:\\Users\\Lenovo\\Desktop\\kmytiv-school\\node_modules\\klona\\license"
   },
   "kmytiv-school@0.1.0": {
-    "licenses": "UNLICENSED",
-    "private": true,
+    "licenses": "MIT",
+    "repository": "https://github.com/victoriastruk/kmytiv-school",
+    "publisher": "Victoria Struk",
     "path": "C:\\Users\\Lenovo\\Desktop\\kmytiv-school",
-    "licenseFile": "C:\\Users\\Lenovo\\Desktop\\kmytiv-school\\README.md"
+    "licenseFile": "C:\\Users\\Lenovo\\Desktop\\kmytiv-school\\LICENSE.md"
   },
   "language-subtag-registry@0.3.22": {
     "licenses": "CC0-1.0",
@@ -5958,6 +5953,14 @@
     "email": "z@georgezahariev.com",
     "path": "C:\\Users\\Lenovo\\Desktop\\kmytiv-school\\node_modules\\levn",
     "licenseFile": "C:\\Users\\Lenovo\\Desktop\\kmytiv-school\\node_modules\\levn\\LICENSE"
+  },
+  "license-checker@25.0.1": {
+    "licenses": "BSD-3-Clause",
+    "repository": "https://github.com/davglass/license-checker",
+    "publisher": "Dav Glass",
+    "email": "davglass@gmail.com",
+    "path": "C:\\Users\\Lenovo\\Desktop\\kmytiv-school\\node_modules\\license-checker",
+    "licenseFile": "C:\\Users\\Lenovo\\Desktop\\kmytiv-school\\node_modules\\license-checker\\LICENSE"
   },
   "lilconfig@2.1.0": {
     "licenses": "MIT",
@@ -6396,6 +6399,23 @@
     "path": "C:\\Users\\Lenovo\\Desktop\\kmytiv-school\\node_modules\\node-releases",
     "licenseFile": "C:\\Users\\Lenovo\\Desktop\\kmytiv-school\\node_modules\\node-releases\\LICENSE"
   },
+  "nopt@4.0.3": {
+    "licenses": "ISC",
+    "repository": "https://github.com/npm/nopt",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "path": "C:\\Users\\Lenovo\\Desktop\\kmytiv-school\\node_modules\\nopt",
+    "licenseFile": "C:\\Users\\Lenovo\\Desktop\\kmytiv-school\\node_modules\\nopt\\LICENSE"
+  },
+  "normalize-package-data@2.5.0": {
+    "licenses": "BSD-2-Clause",
+    "repository": "https://github.com/npm/normalize-package-data",
+    "publisher": "Meryn Stol",
+    "email": "merynstol@gmail.com",
+    "path": "C:\\Users\\Lenovo\\Desktop\\kmytiv-school\\node_modules\\normalize-package-data",
+    "licenseFile": "C:\\Users\\Lenovo\\Desktop\\kmytiv-school\\node_modules\\normalize-package-data\\LICENSE"
+  },
   "normalize-path@3.0.0": {
     "licenses": "MIT",
     "repository": "https://github.com/jonschlinkert/normalize-path",
@@ -6421,6 +6441,15 @@
     "url": "https://sindresorhus.com",
     "path": "C:\\Users\\Lenovo\\Desktop\\kmytiv-school\\node_modules\\normalize-url",
     "licenseFile": "C:\\Users\\Lenovo\\Desktop\\kmytiv-school\\node_modules\\normalize-url\\license"
+  },
+  "npm-normalize-package-bin@1.0.1": {
+    "licenses": "ISC",
+    "repository": "https://github.com/npm/npm-normalize-package-bin",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "https://izs.me",
+    "path": "C:\\Users\\Lenovo\\Desktop\\kmytiv-school\\node_modules\\npm-normalize-package-bin",
+    "licenseFile": "C:\\Users\\Lenovo\\Desktop\\kmytiv-school\\node_modules\\npm-normalize-package-bin\\LICENSE"
   },
   "npm-run-path@4.0.1": {
     "licenses": "MIT",
@@ -6608,6 +6637,33 @@
     "email": "z@georgezahariev.com",
     "path": "C:\\Users\\Lenovo\\Desktop\\kmytiv-school\\node_modules\\optionator",
     "licenseFile": "C:\\Users\\Lenovo\\Desktop\\kmytiv-school\\node_modules\\optionator\\LICENSE"
+  },
+  "os-homedir@1.0.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/os-homedir",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "C:\\Users\\Lenovo\\Desktop\\kmytiv-school\\node_modules\\os-homedir",
+    "licenseFile": "C:\\Users\\Lenovo\\Desktop\\kmytiv-school\\node_modules\\os-homedir\\license"
+  },
+  "os-tmpdir@1.0.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/os-tmpdir",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "C:\\Users\\Lenovo\\Desktop\\kmytiv-school\\node_modules\\os-tmpdir",
+    "licenseFile": "C:\\Users\\Lenovo\\Desktop\\kmytiv-school\\node_modules\\os-tmpdir\\license"
+  },
+  "osenv@0.1.5": {
+    "licenses": "ISC",
+    "repository": "https://github.com/npm/osenv",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "path": "C:\\Users\\Lenovo\\Desktop\\kmytiv-school\\node_modules\\osenv",
+    "licenseFile": "C:\\Users\\Lenovo\\Desktop\\kmytiv-school\\node_modules\\osenv\\LICENSE"
   },
   "p-limit@2.3.0": {
     "licenses": "MIT",
@@ -7736,6 +7792,24 @@
     "path": "C:\\Users\\Lenovo\\Desktop\\kmytiv-school\\node_modules\\read-cache",
     "licenseFile": "C:\\Users\\Lenovo\\Desktop\\kmytiv-school\\node_modules\\read-cache\\LICENSE"
   },
+  "read-installed@4.0.3": {
+    "licenses": "ISC",
+    "repository": "https://github.com/isaacs/read-installed",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "path": "C:\\Users\\Lenovo\\Desktop\\kmytiv-school\\node_modules\\read-installed",
+    "licenseFile": "C:\\Users\\Lenovo\\Desktop\\kmytiv-school\\node_modules\\read-installed\\LICENSE"
+  },
+  "read-package-json@2.1.2": {
+    "licenses": "ISC",
+    "repository": "https://github.com/npm/read-package-json",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "path": "C:\\Users\\Lenovo\\Desktop\\kmytiv-school\\node_modules\\read-package-json",
+    "licenseFile": "C:\\Users\\Lenovo\\Desktop\\kmytiv-school\\node_modules\\read-package-json\\LICENSE"
+  },
   "readable-stream@2.3.8": {
     "licenses": "MIT",
     "repository": "https://github.com/nodejs/readable-stream",
@@ -7747,6 +7821,15 @@
     "repository": "https://github.com/nodejs/readable-stream",
     "path": "C:\\Users\\Lenovo\\Desktop\\kmytiv-school\\node_modules\\readable-stream",
     "licenseFile": "C:\\Users\\Lenovo\\Desktop\\kmytiv-school\\node_modules\\readable-stream\\LICENSE"
+  },
+  "readdir-scoped-modules@1.1.0": {
+    "licenses": "ISC",
+    "repository": "https://github.com/npm/readdir-scoped-modules",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "path": "C:\\Users\\Lenovo\\Desktop\\kmytiv-school\\node_modules\\readdir-scoped-modules",
+    "licenseFile": "C:\\Users\\Lenovo\\Desktop\\kmytiv-school\\node_modules\\readdir-scoped-modules\\LICENSE"
   },
   "readdirp@3.6.0": {
     "licenses": "MIT",
@@ -8122,6 +8205,12 @@
     "path": "C:\\Users\\Lenovo\\Desktop\\kmytiv-school\\node_modules\\selfsigned",
     "licenseFile": "C:\\Users\\Lenovo\\Desktop\\kmytiv-school\\node_modules\\selfsigned\\LICENSE"
   },
+  "semver@5.7.1": {
+    "licenses": "ISC",
+    "repository": "https://github.com/npm/node-semver",
+    "path": "C:\\Users\\Lenovo\\Desktop\\kmytiv-school\\node_modules\\normalize-package-data\\node_modules\\semver",
+    "licenseFile": "C:\\Users\\Lenovo\\Desktop\\kmytiv-school\\node_modules\\normalize-package-data\\node_modules\\semver\\LICENSE"
+  },
   "semver@6.3.0": {
     "licenses": "ISC",
     "repository": "https://github.com/npm/node-semver",
@@ -8268,6 +8357,15 @@
     "path": "C:\\Users\\Lenovo\\Desktop\\kmytiv-school\\node_modules\\jest-watch-typeahead\\node_modules\\slash",
     "licenseFile": "C:\\Users\\Lenovo\\Desktop\\kmytiv-school\\node_modules\\jest-watch-typeahead\\node_modules\\slash\\license"
   },
+  "slide@1.1.6": {
+    "licenses": "ISC",
+    "repository": "https://github.com/isaacs/slide-flow-control",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "path": "C:\\Users\\Lenovo\\Desktop\\kmytiv-school\\node_modules\\slide",
+    "licenseFile": "C:\\Users\\Lenovo\\Desktop\\kmytiv-school\\node_modules\\slide\\LICENSE"
+  },
   "sockjs@0.3.24": {
     "licenses": "MIT",
     "repository": "https://github.com/sockjs/sockjs-node",
@@ -8333,6 +8431,61 @@
     "publisher": "Rich Harris",
     "path": "C:\\Users\\Lenovo\\Desktop\\kmytiv-school\\node_modules\\sourcemap-codec",
     "licenseFile": "C:\\Users\\Lenovo\\Desktop\\kmytiv-school\\node_modules\\sourcemap-codec\\LICENSE"
+  },
+  "spdx-compare@1.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/kemitchell/spdx-compare.js",
+    "publisher": "Kyle E. Mitchell",
+    "email": "kyle@kemitchell.com",
+    "url": "https://kemitchell.com",
+    "path": "C:\\Users\\Lenovo\\Desktop\\kmytiv-school\\node_modules\\spdx-compare",
+    "licenseFile": "C:\\Users\\Lenovo\\Desktop\\kmytiv-school\\node_modules\\spdx-compare\\LICENSE.md"
+  },
+  "spdx-correct@3.2.0": {
+    "licenses": "Apache-2.0",
+    "repository": "https://github.com/jslicense/spdx-correct.js",
+    "path": "C:\\Users\\Lenovo\\Desktop\\kmytiv-school\\node_modules\\spdx-correct",
+    "licenseFile": "C:\\Users\\Lenovo\\Desktop\\kmytiv-school\\node_modules\\spdx-correct\\LICENSE"
+  },
+  "spdx-exceptions@2.3.0": {
+    "licenses": "CC-BY-3.0",
+    "repository": "https://github.com/kemitchell/spdx-exceptions.json",
+    "publisher": "The Linux Foundation",
+    "path": "C:\\Users\\Lenovo\\Desktop\\kmytiv-school\\node_modules\\spdx-exceptions",
+    "licenseFile": "C:\\Users\\Lenovo\\Desktop\\kmytiv-school\\node_modules\\spdx-exceptions\\README.md"
+  },
+  "spdx-expression-parse@3.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jslicense/spdx-expression-parse.js",
+    "publisher": "Kyle E. Mitchell",
+    "email": "kyle@kemitchell.com",
+    "url": "https://kemitchell.com",
+    "path": "C:\\Users\\Lenovo\\Desktop\\kmytiv-school\\node_modules\\spdx-expression-parse",
+    "licenseFile": "C:\\Users\\Lenovo\\Desktop\\kmytiv-school\\node_modules\\spdx-expression-parse\\LICENSE"
+  },
+  "spdx-license-ids@3.0.13": {
+    "licenses": "CC0-1.0",
+    "repository": "https://github.com/jslicense/spdx-license-ids",
+    "publisher": "Shinnosuke Watanabe",
+    "url": "https://github.com/shinnn",
+    "path": "C:\\Users\\Lenovo\\Desktop\\kmytiv-school\\node_modules\\spdx-license-ids",
+    "licenseFile": "C:\\Users\\Lenovo\\Desktop\\kmytiv-school\\node_modules\\spdx-license-ids\\README.md"
+  },
+  "spdx-ranges@2.1.1": {
+    "licenses": "(MIT AND CC-BY-3.0)",
+    "repository": "https://github.com/kemitchell/spdx-ranges.js",
+    "publisher": "The Linux Foundation",
+    "path": "C:\\Users\\Lenovo\\Desktop\\kmytiv-school\\node_modules\\spdx-ranges",
+    "licenseFile": "C:\\Users\\Lenovo\\Desktop\\kmytiv-school\\node_modules\\spdx-ranges\\LICENSE.md"
+  },
+  "spdx-satisfies@4.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/kemitchell/spdx-satisfies.js",
+    "publisher": "Kyle E. Mitchell",
+    "email": "kyle@kemitchell.com",
+    "url": "https://kemitchell.com",
+    "path": "C:\\Users\\Lenovo\\Desktop\\kmytiv-school\\node_modules\\spdx-satisfies",
+    "licenseFile": "C:\\Users\\Lenovo\\Desktop\\kmytiv-school\\node_modules\\spdx-satisfies\\LICENSE"
   },
   "spdy-transport@3.0.0": {
     "licenses": "MIT",
@@ -8814,6 +8967,14 @@
     "path": "C:\\Users\\Lenovo\\Desktop\\kmytiv-school\\node_modules\\tr46",
     "licenseFile": "C:\\Users\\Lenovo\\Desktop\\kmytiv-school\\node_modules\\tr46\\LICENSE.md"
   },
+  "treeify@1.1.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/notatestuser/treeify",
+    "publisher": "Luke Plaster",
+    "email": "notatestuser@gmail.com",
+    "path": "C:\\Users\\Lenovo\\Desktop\\kmytiv-school\\node_modules\\treeify",
+    "licenseFile": "C:\\Users\\Lenovo\\Desktop\\kmytiv-school\\node_modules\\treeify\\LICENSE"
+  },
   "trim-repeated@1.0.0": {
     "licenses": "MIT",
     "repository": "https://github.com/sindresorhus/trim-repeated",
@@ -8884,33 +9045,6 @@
     "url": "http://alogicalparadox.com",
     "path": "C:\\Users\\Lenovo\\Desktop\\kmytiv-school\\node_modules\\type-detect",
     "licenseFile": "C:\\Users\\Lenovo\\Desktop\\kmytiv-school\\node_modules\\type-detect\\LICENSE"
-  },
-  "type-fest@0.16.0": {
-    "licenses": "(MIT OR CC0-1.0)",
-    "repository": "https://github.com/sindresorhus/type-fest",
-    "publisher": "Sindre Sorhus",
-    "email": "sindresorhus@gmail.com",
-    "url": "https://sindresorhus.com",
-    "path": "C:\\Users\\Lenovo\\Desktop\\kmytiv-school\\node_modules\\tempy\\node_modules\\type-fest",
-    "licenseFile": "C:\\Users\\Lenovo\\Desktop\\kmytiv-school\\node_modules\\tempy\\node_modules\\type-fest\\license"
-  },
-  "type-fest@0.20.2": {
-    "licenses": "(MIT OR CC0-1.0)",
-    "repository": "https://github.com/sindresorhus/type-fest",
-    "publisher": "Sindre Sorhus",
-    "email": "sindresorhus@gmail.com",
-    "url": "https://sindresorhus.com",
-    "path": "C:\\Users\\Lenovo\\Desktop\\kmytiv-school\\node_modules\\@eslint\\eslintrc\\node_modules\\type-fest",
-    "licenseFile": "C:\\Users\\Lenovo\\Desktop\\kmytiv-school\\node_modules\\@eslint\\eslintrc\\node_modules\\type-fest\\license"
-  },
-  "type-fest@0.21.3": {
-    "licenses": "(MIT OR CC0-1.0)",
-    "repository": "https://github.com/sindresorhus/type-fest",
-    "publisher": "Sindre Sorhus",
-    "email": "sindresorhus@gmail.com",
-    "url": "https://sindresorhus.com",
-    "path": "C:\\Users\\Lenovo\\Desktop\\kmytiv-school\\node_modules\\type-fest",
-    "licenseFile": "C:\\Users\\Lenovo\\Desktop\\kmytiv-school\\node_modules\\type-fest\\license"
   },
   "type-is@1.6.18": {
     "licenses": "MIT",
@@ -9079,6 +9213,12 @@
     "path": "C:\\Users\\Lenovo\\Desktop\\kmytiv-school\\node_modules\\util-deprecate",
     "licenseFile": "C:\\Users\\Lenovo\\Desktop\\kmytiv-school\\node_modules\\util-deprecate\\LICENSE"
   },
+  "util-extend@1.0.3": {
+    "licenses": "MIT",
+    "repository": "https://github.com/isaacs/util-extend",
+    "path": "C:\\Users\\Lenovo\\Desktop\\kmytiv-school\\node_modules\\util-extend",
+    "licenseFile": "C:\\Users\\Lenovo\\Desktop\\kmytiv-school\\node_modules\\util-extend\\LICENSE"
+  },
   "util.promisify@1.0.1": {
     "licenses": "MIT",
     "repository": "https://github.com/ljharb/util.promisify",
@@ -9116,6 +9256,15 @@
     "email": "ben@npmjs.com",
     "path": "C:\\Users\\Lenovo\\Desktop\\kmytiv-school\\node_modules\\v8-to-istanbul",
     "licenseFile": "C:\\Users\\Lenovo\\Desktop\\kmytiv-school\\node_modules\\v8-to-istanbul\\LICENSE.txt"
+  },
+  "validate-npm-package-license@3.0.4": {
+    "licenses": "Apache-2.0",
+    "repository": "https://github.com/kemitchell/validate-npm-package-license.js",
+    "publisher": "Kyle E. Mitchell",
+    "email": "kyle@kemitchell.com",
+    "url": "https://kemitchell.com",
+    "path": "C:\\Users\\Lenovo\\Desktop\\kmytiv-school\\node_modules\\validate-npm-package-license",
+    "licenseFile": "C:\\Users\\Lenovo\\Desktop\\kmytiv-school\\node_modules\\validate-npm-package-license\\LICENSE"
   },
   "vary@1.1.2": {
     "licenses": "MIT",
